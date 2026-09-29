@@ -274,7 +274,7 @@ def run_correlation_matrix() -> None:
     print(separator("-"))
 
     commentary = [
-        ("SPX vs VIX (-0.85, +++---):",
+        ("SPX vs VIX (-0.85, ---):",
          "The strongest and most reliable pair in the matrix. VIX is structurally "
          "short volatility relative to equities — when equity prices fall, implied "
          "volatility explodes. A -0.85 correlation means VIX is approximately an "
